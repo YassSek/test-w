@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page non trouvée (404) - WiSec.be | Expert IT Belgique</title>
+    <meta name="description" content="Page introuvable. Retrouvez tous nos services IT en Belgique : câblage réseau, WiFi, firewall, VoIP. Contact : +32 485 495 841">
+    <meta name="robots" content="noindex, follow">
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://wisec.be/">
+    <style>
+        .error-404 {
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4rem 0;
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .error-content {
+            max-width: 600px;
+            padding: 0 2rem;
+        }
+        .error-code {
+            font-size: 8rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            text-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+        }
+        .error-message {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .error-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        .error-link {
+            background: white;
+            color: #667eea;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+        }
+        .error-link:hover {
+            transform: translateY(-3px);
+        }
+        .popular-pages {
+            padding: 4rem 0;
+            background: white;
+        }
+        .popular-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .popular-card {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .popular-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .popular-card h3 {
+            color: #2a5298;
+            margin-bottom: 1rem;
+        }
+        .popular-card a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="index.html" style="text-decoration:none;">
+                <div class="logo">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#64b5f6;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#1e88e5;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <path d="M50 10 L80 25 L80 55 Q80 75 50 90 Q20 75 20 55 L20 25 Z" fill="url(#logoGrad)" stroke="white" stroke-width="2"/>
+                        <path d="M50 45 Q40 45 35 50" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                        <path d="M50 45 Q60 45 65 50" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                        <path d="M50 40 Q37 40 30 47" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                        <path d="M50 40 Q63 40 70 47" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                        <circle cx="50" cy="60" r="5" fill="white"/>
+                        <rect x="45" y="60" width="10" height="8" rx="1" fill="white"/>
+                        <path d="M47 60 L47 56 Q47 53 50 53 Q53 53 53 56 L53 60" stroke="#1e88e5" stroke-width="2" fill="none"/>
+                    </svg>
+                    <span class="logo-text">WiSec.be</span>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="error-404">
+        <div class="error-content">
+            <div class="error-code">404</div>
+            <h1 class="error-message">Oups ! Page introuvable</h1>
+            <p style="font-size: 1.1rem; margin-bottom: 2rem;">
+                La page que vous recherchez n'existe pas ou a été déplacée. 
+                Pas de panique, nous sommes là pour vous aider !
+            </p>
+            <div class="error-links">
+                <a href="index.html" class="error-link">🏠 Retour à l'accueil</a>
+                <a href="contact.html" class="error-link">📞 Nous contacter</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular-pages">
+        <div class="container">
+            <h2 style="text-align: center; color: #333; margin-bottom: 1rem;">Pages les plus visitées</h2>
+            <p style="text-align: center; color: #666; margin-bottom: 3rem;">
+                Peut-être cherchiez-vous l'une de ces pages ?
+            </p>
+            
+            <div class="popular-grid">
+                <div class="popular-card">
+                    <h3>🔌 Câblage Structuré</h3>
+                    <p style="color: #666; margin-bottom: 1rem;">
+                        Installation Cat6/Cat7 en Wallonie et Bruxelles
+                    </p>
+                    <a href="services.html#cablage">En savoir plus →</a>
+                </div>
+
+                <div class="popular-card">
+                    <h3>📡 Installation WiFi</h3>
+                    <p style="color: #666; margin-bottom: 1rem;">
+                        Antennes WiFi 6 professionnelles
+                    </p>
+                    <a href="services.html#wifi">En savoir plus →</a>
+                </div>
+
+                <div class="popular-card">
+                    <h3>🛡️ Firewall & Sécurité</h3>
+                    <p style="color: #666; margin-bottom: 1rem;">
+                        Protection réseau avancée
+                    </p>
+                    <a href="services.html#securite">En savoir plus →</a>
+                </div>
+
+                <div class="popular-card">
+                    <h3>☎️ Téléphonie VoIP</h3>
+                    <p style="color: #666; margin-bottom: 1rem;">
+                        Solutions VoIP pour entreprises
+                    </p>
+                    <a href="services.html#voip">En savoir plus →</a>
+                </div>
+
+                <div class="popular-card">
+                    <h3>🧹 Cleaning Armoires</h3>
+                    <p style="color: #666; margin-bottom: 1rem;">
+                        Organisation professionnelle
+                    </p>
+                    <a href="services.html#cleaning">En savoir plus →</a>
+                </div>
+
+                <div class="popular-card">
+                    <h3>📧 Contact</h3>
+                    <p style="color: #666; margin-bottom: 1rem;">
+                        Devis gratuit et personnalisé
+                    </p>
+                    <a href="contact.html">Nous contacter →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: #f8f9fa; padding: 3rem 0; text-align: center;">
+        <div class="container">
+            <h2 style="color: #2a5298; margin-bottom: 1rem;">Besoin d'aide ?</h2>
+            <p style="color: #666; font-size: 1.1rem; margin-bottom: 1.5rem;">
+                Notre équipe est à votre disposition
+            </p>
+            <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
+                <div>
+                    <strong style="color: #2a5298;">📧 Email</strong><br>
+                    <a href="mailto:contact@wisec.be" style="color: #667eea; text-decoration: none;">contact@wisec.be</a>
+                </div>
+                <div>
+                    <strong style="color: #2a5298;">📞 Téléphone</strong><br>
+                    <a href="tel:+32485495841" style="color: #667eea; text-decoration: none;">+32 485 495 841</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 WiSec.be - Expert IT & Téléphonie Belgique | Tous droits réservés</p>
+        </div>
+    </footer>
+</body>
+</html>
