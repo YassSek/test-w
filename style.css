@@ -36,6 +36,9 @@
     }
     
     .logo {
+        position: absolute;
+        left: 10;
+        top: 0;
         display: flex;
         align-items: center;
         gap: 0.5rem;
@@ -45,6 +48,7 @@
     }
     
     .logo svg {
+    
         width: 45px;
         height: 45px;
     }
@@ -56,10 +60,10 @@
         background-clip: text;
     }
     
-    .nav-links {
-        display: flex;
+    .nav-links li{
+        display: inline-block;
         list-style: none;
-        gap: 2rem;
+        margin: 10px;
     }
     
     .nav-links a {
@@ -407,12 +411,7 @@
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         cursor: pointer;
     }
-    
-    /* .realisation-card:hover {
-        transform: translateY(-10px);
-        z-index: 10;
-        box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-    } */
+
     
     .realisation-image {
         width: 100%;
@@ -515,10 +514,63 @@
     }
     
     /* Responsive */
-    @media (max-width: 768px) {
-        .nav-links {
-            display: none;
+    @media (max-width: 600px) {
+        .logo{
+            margin-bottom: 10%;
+            padding: 10px;
+            justify-content: center;
+            align-self: center;
         }
+
+        .nav-links {
+            margin-top: 10%;
+            width: 100%;
+            display: none;
+            flex-direction: column;
+            text-align: left;
+        }
+
+    
+        .mobile-menu {
+            display: block;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+        
+        .about-content,
+        .contact-content {
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+        
+        .services-grid {
+            grid-template-columns: 1fr;
+        }
+        
+        .coverage-areas {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+        @media (max-width: 768px) {
+        .logo{
+            margin-bottom: 10%;
+            padding: 10px;
+            justify-content: center;
+            align-self: center;
+        }
+
+        .nav-links {
+            margin-top: 20px;
+            width: 100%;
+            display: none;
+            flex-direction: column;
+            text-align: left;
+        }
+
         
         .mobile-menu {
             display: block;
