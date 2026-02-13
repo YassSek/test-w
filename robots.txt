@@ -1,18 +1,16 @@
-# robots.txt pour WiSec.be
+# Expert IT & Téléphonie Professionnelle en Belgique
+
 User-agent: *
 Allow: /
-Disallow: /admin/
-Disallow: /private/
 
 # Sitemap
 Sitemap: https://wisec.be/sitemap.xml
 
-# Bots spécifiques
-User-agent: Googlebot
-Allow: /
+# Disallow
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /*.json$
+Disallow: /*.config$
 
-User-agent: Bingbot
-Allow: /
-
-# Crawl-delay pour éviter la surcharge
+# Crawl-delay
 Crawl-delay: 1
