@@ -330,11 +330,8 @@ document.addEventListener('DOMContentLoaded', () => {
     lastScroll = currentScroll;
   }, { passive: true });
 
-  // =======================
-  // CONSOLE INFO
-  // =======================
-  console.log('%c🔒 WiSec.be - Site professionnel', 'color: #00acee; font-size: 16px; font-weight: bold;');
-  console.log('%cVersion 2.0 - Développé avec ❤️', 'color: #666; font-size: 12px;');
+  
+ console.log('Bienvenu');
 
   // =======================
   // DÉTECTION MOBILE
