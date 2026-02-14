@@ -1,16 +1,68 @@
 # Expert IT & Téléphonie Professionnelle en Belgique
+# WiSec.be - Robots.txt Optimisé
 
+# Règles pour tous les robots
 User-agent: *
 Allow: /
 
 # Sitemap
 Sitemap: https://wisec.be/sitemap.xml
 
-# Disallow
+# Disallow - Fichiers et dossiers système
 Disallow: /cgi-bin/
 Disallow: /tmp/
 Disallow: /*.json$
 Disallow: /*.config$
+Disallow: /.git/
+Disallow: /node_modules/
 
-# Crawl-delay
+# Bloquer les bots de scraping agressifs
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+# Bloquer les bots de scraping d'images
+User-agent: Googlebot-Image
+Disallow: /images/
+
+User-agent: ImageBot
+Disallow: /images/
+
+# Permettre les bons bots (Google, Bing, etc.)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Crawl-delay pour éviter la surcharge
 Crawl-delay: 1
+
+# Note : Ce fichier permet aux moteurs de recherche légitimes
+# d'indexer le site tout en bloquant les scrapers agressifs

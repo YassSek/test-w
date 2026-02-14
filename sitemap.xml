@@ -2,44 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     
-    <!-- Page d'accueil -->
+    <!-- Page d'accueil / Index (One-Page) -->
     <url>
         <loc>https://wisec.be/</loc>
-        <lastmod>2025-02-06</lastmod>
+        <lastmod>2026-02-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <xhtml:link rel="alternate" hreflang="fr-BE" href="https://wisec.be/"/>
     </url>
     
-    <!-- Services -->
+    <!-- Section Services (Ancre dans index.html) -->
     <url>
-        <loc>https://wisec.be/services.html</loc>
-        <lastmod>2025-02-06</lastmod>
+        <loc>https://wisec.be/#services</loc>
+        <lastmod>2026-02-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="fr-BE" href="https://wisec.be/services.html"/>
     </url>
     
-    <!-- Réalisations -->
+    <!-- Section Réalisations (Ancre dans index.html) -->
     <url>
-        <loc>https://wisec.be/realisation.html</loc>
-        <lastmod>2025-02-06</lastmod>
+        <loc>https://wisec.be/#realisations</loc>
+        <lastmod>2026-02-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
-    <!-- À propos -->
+    <!-- Section Zones (Ancre dans index.html) -->
     <url>
-        <loc>https://wisec.be/about.html</loc>
-        <lastmod>2025-02-06</lastmod>
+        <loc>https://wisec.be/#zones</loc>
+        <lastmod>2026-02-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
-    <!-- Contact -->
+    <!-- Section Pourquoi nous (Ancre dans index.html) -->
     <url>
-        <loc>https://wisec.be/contact.html</loc>
-        <lastmod>2025-02-06</lastmod>
+        <loc>https://wisec.be/#pourquoi</loc>
+        <lastmod>2026-02-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Section Contact (Ancre dans index.html) -->
+    <url>
+        <loc>https://wisec.be/#contact</loc>
+        <lastmod>2026-02-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
