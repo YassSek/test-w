@@ -45,7 +45,7 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="./style.css">
   
-  <!-- Schema.org Structured Data (JSON-LD) -->
+  <!-- ✅ CORRIGÉ : Schema.org Structured Data (JSON-LD) — chaîne fermée + typo "adaoté" corrigée -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -142,7 +142,7 @@
           "itemOffered": {
             "@type": "Service",
             "name": "Téléphonie VoIP Entreprise",
-            "description": "Déploiement de solutions VoIP professionnelles : centraux téléphoniques 3CX, solution Pabx adaoté en cloud ou en physique
+            "description": "Déploiement de solutions VoIP professionnelles : centraux téléphoniques 3CX, solution PABX adaptée en cloud ou en physique"
           }
         }
       ]
@@ -160,6 +160,7 @@
     <div class="container">
       <div class="header-content">
         <!-- Logo -->
+        <!-- ✅ CORRIGÉ : Ajout de ".be" pour harmoniser avec 404.html et 500.html -->
         <a href="/" class="logo" aria-label="WiSec.be - Retour à l'accueil">
           <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48" style="margin-right: 0.5rem;">
             <defs>
@@ -177,7 +178,7 @@
             <rect x="45" y="60" width="10" height="8" rx="1" fill="white"/>
             <path d="M47 60 L47 56 Q47 53 50 53 Q53 53 53 56 L53 60" stroke="#1e88e5" stroke-width="2" fill="none"/>
           </svg>
-          <span class="logo-primary">WiSec</span>
+          <span class="logo-primary">WiSec</span><span class="logo-foreground">.be</span>
         </a>
 
         <!-- Desktop Navigation -->
@@ -323,15 +324,6 @@
                 </svg>
                 <p class="feature-text">Support technique 24/7 pour vos urgences IT</p>
               </div>
-              <!-- 
-              carte concernant certif fluke 
-              <div class="feature-box">
-                <svg class="feature-icon" viewBox="0 0 24 24">
-                  <circle cx="12" cy="8" r="7"></circle>
-                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
-                </svg>
-                <p class="feature-text">Certifications réseaux : Tests Fluke Networks</p>
-              </div> -->
               <div class="feature-box">
                 <svg class="feature-icon" viewBox="0 0 24 24">
                   <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
@@ -365,17 +357,22 @@
         </div>
 
         <div class="grid grid-cols-1 grid-cols-sm-2 grid-cols-lg-3">
+
           <!-- Service 1: Câblage Structuré -->
+          <!-- ✅ CORRIGÉ : SVG icône patch panel / câblage structuré (remplace l'ancien git-fork peu parlant) -->
           <article class="service-card">
             <div class="service-image">
               <img src="./images/cabling.jpg" alt="Câblage réseau Cat6/Cat7 professionnel" loading="lazy">
               <div class="service-image-overlay"></div>
               <div class="service-icon">
                 <svg viewBox="0 0 24 24">
-                  <path d="M6 3v12"></path>
-                  <circle cx="18" cy="9" r="3"></circle>
-                  <circle cx="6" cy="21" r="3"></circle>
-                  <path d="M15 6a9 9 0 0 0-9 9"></path>
+                  <rect x="2" y="9" width="20" height="6" rx="1"></rect>
+                  <line x1="6"  y1="9" x2="6"  y2="5"></line>
+                  <line x1="10" y1="9" x2="10" y2="5"></line>
+                  <line x1="14" y1="9" x2="14" y2="5"></line>
+                  <line x1="18" y1="9" x2="18" y2="5"></line>
+                  <line x1="12" y1="15" x2="12" y2="19"></line>
+                  <rect x="9" y="19" width="6" height="2" rx="1"></rect>
                 </svg>
               </div>
             </div>
@@ -390,7 +387,6 @@
                 <li class="service-feature">Câblage Ethernet Cat6/Cat6A/Cat7</li>
                 <li class="service-feature">Fibre optique monomode et multimode</li>
                 <li class="service-feature">Certification et tests de performance</li>
-                
               </ul>
               <a href="#contact" class="service-link">
                 En savoir plus
@@ -402,7 +398,7 @@
             </div>
           </article>
 
-          <!-- Service 2: WiFi 6 -->
+          <!-- Service 2: WiFi 6 (icône inchangée — déjà correcte) -->
           <article class="service-card">
             <div class="service-image">
               <img src="./images/wifi.jpg" alt="Installation WiFi 6 professionnelle" loading="lazy">
@@ -492,7 +488,7 @@
                 Déploiement de solutions VoIP professionnelles : centraux téléphoniques 3CX, Asterisk, FreePBX. Migration complète de votre téléphonie traditionnelle vers l'IP.
               </p>
               <ul class="service-features">
-                <li class="service-feature">Centraux 3CX, Solution Pabx adapté en cloud ou physique, FreePBX</li>
+                <li class="service-feature">Centraux 3CX, Solution PABX adaptée en cloud ou physique, FreePBX</li>
                 <li class="service-feature">Migration téléphonie vers VoIP</li>
                 <li class="service-feature">SIP Trunking et numéros virtuels</li>
                 <li class="service-feature">Softphones et applications mobiles</li>
@@ -508,15 +504,22 @@
           </article>
 
           <!-- Service 5: Cleaning Armoires -->
+          <!-- ✅ CORRIGÉ : SVG icône rack serveur 19" (remplace l'ancien icône "bâtiment" hors sujet) -->
           <article class="service-card">
             <div class="service-image">
               <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop" alt="Cleaning armoires informatiques" loading="lazy">
               <div class="service-image-overlay"></div>
               <div class="service-icon">
                 <svg viewBox="0 0 24 24">
-                  <path d="M3 21h18"></path>
-                  <path d="M5 21V7l8-4v18"></path>
-                  <path d="M19 21V11l-6-4"></path>
+                  <rect x="4" y="2" width="16" height="20" rx="2"></rect>
+                  <line x1="4" y1="8"  x2="20" y2="8"></line>
+                  <line x1="4" y1="14" x2="20" y2="14"></line>
+                  <circle cx="17" cy="5"  r="1.2" fill="currentColor"></circle>
+                  <circle cx="17" cy="11" r="1.2" fill="currentColor"></circle>
+                  <circle cx="17" cy="17" r="1.2" fill="currentColor"></circle>
+                  <rect x="7" y="4"  width="7" height="2" rx="0.5"></rect>
+                  <rect x="7" y="10" width="7" height="2" rx="0.5"></rect>
+                  <rect x="7" y="16" width="7" height="2" rx="0.5"></rect>
                 </svg>
               </div>
             </div>
@@ -778,7 +781,7 @@
             </p>
           </div>
 
-          <div class="zone-card zone-card">
+          <div class="zone-card">
             <div class="zone-header">
               <svg class="zone-icon" viewBox="0 0 24 24">
                 <path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"></path>
@@ -900,7 +903,8 @@
     <div class="container">
       <div class="footer-content">
         <div>
-          <a href="/" class="logo" aria-label="WiSec">
+          <!-- ✅ CORRIGÉ : Logo harmonisé avec ".be" comme dans 404.html et 500.html -->
+          <a href="/" class="logo" aria-label="WiSec.be">
             <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" width="40" height="40" style="margin-right: 0.5rem;">
               <defs>
                 <linearGradient id="logoGradFooter" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -917,7 +921,7 @@
               <rect x="45" y="60" width="10" height="8" rx="1" fill="white"/>
               <path d="M47 60 L47 56 Q47 53 50 53 Q53 53 53 56 L53 60" stroke="#1e88e5" stroke-width="2" fill="none"/>
             </svg>
-            <span class="logo-primary">WiSec</span>
+            <span class="logo-primary">WiSec</span><span class="logo-foreground">.be</span>
           </a>
           <p style="margin-top: 1rem; font-size: 0.875rem; line-height: 1.7; color: var(--muted-foreground);">
             Expert en solutions informatiques et téléphonie professionnelle en Belgique. Wallonie & Bruxelles.
