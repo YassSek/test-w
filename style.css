@@ -700,14 +700,15 @@ img {
   background-color: rgba(0, 172, 238, 0.05);
 }
 
-.feature-icon {
+.feature-icon{
+  stroke: var(--accent); 
+  fill:var(--card);
   margin-top: 0.125rem;
   width: 1.25rem;
   height: 1.25rem;
   flex-shrink: 0;
-  color: var(--accent);
+  
 }
-
 .feature-text {
   font-size: 0.875rem;
   line-height: 1.7;
