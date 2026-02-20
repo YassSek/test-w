@@ -4,9 +4,8 @@
 # Règles pour tous les robots
 User-agent: *
 Allow: /
-
-# Sitemap
-Sitemap: https://wisec.be/sitemap.xml
+# ✅ CORRIGÉ : Crawl-delay placé ici pour s'appliquer globalement
+Crawl-delay: 1
 
 # Disallow - Fichiers et dossiers système
 Disallow: /cgi-bin/
@@ -15,6 +14,9 @@ Disallow: /*.json$
 Disallow: /*.config$
 Disallow: /.git/
 Disallow: /node_modules/
+
+# Sitemap
+Sitemap: https://wisec.be/sitemap.xml
 
 # Bloquer les bots de scraping agressifs
 User-agent: AhrefsBot
@@ -60,9 +62,6 @@ Allow: /
 
 User-agent: YandexBot
 Allow: /
-
-# Crawl-delay pour éviter la surcharge
-Crawl-delay: 1
 
 # Note : Ce fichier permet aux moteurs de recherche légitimes
 # d'indexer le site tout en bloquant les scrapers agressifs

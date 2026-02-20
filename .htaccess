@@ -60,8 +60,8 @@
 #   RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 # </IfModule>
 
-# Remove www (or add www - choose one)
-# Redirect to non-www
+# ✅ CORRIGÉ : Redirect www → non-www (utilise https:// seulement si SSL actif)
+# Si SSL non actif, remplace https:// par http:// ci-dessous
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
@@ -75,8 +75,8 @@ ErrorDocument 500 /500.html
 # Disable Directory Browsing
 Options -Indexes
 
-# Protect sensitive files
-<FilesMatch "^.(htaccess|htpasswd|ini|log|sh|inc|bak|config)$">
+# ✅ CORRIGÉ : Échappement du point dans FilesMatch (était "^." au lieu de "^\.")
+<FilesMatch "^\.(htaccess|htpasswd|ini|log|sh|inc|bak|config)$">
   Order Allow,Deny
   Deny from all
 </FilesMatch>
