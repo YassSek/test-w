@@ -1,5 +1,5 @@
 # Expert IT & Téléphonie Professionnelle en Belgique
-# WiSec.be - Robots.txt Optimisé
+# WiSek.be - Robots.txt Optimisé
 
 # Règles pour tous les robots
 User-agent: *
@@ -16,7 +16,7 @@ Disallow: /.git/
 Disallow: /node_modules/
 
 # Sitemap
-Sitemap: https://wisec.be/sitemap.xml
+Sitemap: https://wisek.be/sitemap.xml
 
 # Bloquer les bots de scraping agressifs
 User-agent: AhrefsBot

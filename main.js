@@ -1,5 +1,5 @@
 /**
- * WiSec.be - JavaScript Corrigé
+ * WiSek.be - JavaScript Corrigé
  * Expert IT & Téléphonie Professionnelle en Belgique
  * Version 2.0 - Tous les bugs corrigés
  */
@@ -108,62 +108,62 @@ document.addEventListener('DOMContentLoaded', () => {
       title: "Câblage Rack Informatique & Patch Panel",
       location: "Bruxelles",
       images: [
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/Cablage+rack-informatique-patch_pannel-Bruxelles1.jpg",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/Cablage+rack-informatique-patch_pannel-Bruxelles2.jpg",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/Cablage+rack-informatique-patch_pannel-Bruxelles3.jpg",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/Cablage+rack-informatique-patch_pannel-Bruxelles4.jpg",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/Cablage+rack-informatique-patch_pannel-Bruxelles5.jpg",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/Cablage+rack-informatique-patch_pannel-Bruxelles6.jpg",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/Cablage+rack-informatique-patch_pannel-Bruxelles7.jpg",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/Cablage+rack-informatique-patch_pannel-Bruxelles8.jpg"
+        "./images/Cablage+rack-informatique-patch_pannel-Bruxelles1.jpg",
+        "./images/Cablage+rack-informatique-patch_pannel-Bruxelles2.jpg",
+        "./images/Cablage+rack-informatique-patch_pannel-Bruxelles3.jpg",
+        "./images/Cablage+rack-informatique-patch_pannel-Bruxelles4.jpg",
+        "./images/Cablage+rack-informatique-patch_pannel-Bruxelles5.jpg",
+        "./images/Cablage+rack-informatique-patch_pannel-Bruxelles6.jpg",
+        "./images/Cablage+rack-informatique-patch_pannel-Bruxelles7.jpg",
+        "./images/Cablage+rack-informatique-patch_pannel-Bruxelles8.jpg"
       ]
     },
     {
       title: "Cleaning Armoire & Cloudkey",
       location: "Uccle",
       images: [
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/Cleaning+armoire+cloudkey-Uccle1.jpg",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/Cleaning+armoire+cloudkey-Uccle2.jpg",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/Cleaning+armoire+cloudkey-Uccle3.jpg",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/Cleaning+armoire+cloudkey-Uccle4.jpg"
+        "./images/Cleaning+armoire+cloudkey-Uccle1.jpg",
+        "./images/Cleaning+armoire+cloudkey-Uccle2.jpg",
+        "./images/Cleaning+armoire+cloudkey-Uccle3.jpg",
+        "./images/Cleaning+armoire+cloudkey-Uccle4.jpg"
       ]
     },
     {
       title: "Cleaning Infrastructure Informatique",
       location: "Sivry",
       images: [
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/1cleanig-infra-avant-sivry.png",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/2cleaning-infra-apres-sivry.jpg",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/3cleaning-infra-apres-sivry.jpg",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/4cleaning-infra-apres-sivry.jpg"
+        "./images/1cleanig-infra-avant-sivry.png",
+        "./images/2cleaning-infra-apres-sivry.jpg",
+        "./images/3cleaning-infra-apres-sivry.jpg",
+        "./images/4cleaning-infra-apres-sivry.jpg"
       ]
     },
     {
       title: "Déplacement Armoire & Câblage",
       location: "Bruxelles",
       images: [
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/D%C3%A9placement-armoire%2Bcablage-Bruxelles1.jpg",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/D%C3%A9placement-armoire%2Bcablage-Bruxelles2.jpg",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/D%C3%A9placement-armoire%2Bcablage-Bruxelles3.jpg",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/D%C3%A9placement-armoire%2Bcablage-Bruxelles4.jpg",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/D%C3%A9placement-armoire%2Bcablage-Bruxelles5.jpg",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/D%C3%A9placement-armoire%2Bcablage-Bruxelles6.jpg",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/D%C3%A9placement-armoire%2Bcablage-Bruxelles7.jpg"
+        "./images/D%C3%A9placement-armoire%2Bcablage-Bruxelles1.jpg",
+        "./images/D%C3%A9placement-armoire%2Bcablage-Bruxelles2.jpg",
+        "./images/D%C3%A9placement-armoire%2Bcablage-Bruxelles3.jpg",
+        "./images/D%C3%A9placement-armoire%2Bcablage-Bruxelles4.jpg",
+        "./images/D%C3%A9placement-armoire%2Bcablage-Bruxelles5.jpg",
+        "./images/D%C3%A9placement-armoire%2Bcablage-Bruxelles6.jpg",
+        "./images/D%C3%A9placement-armoire%2Bcablage-Bruxelles7.jpg"
       ]
     },
     {
       title: "Contrôle d'accès",
       location: "Belgique",
       images: [
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/1Controle-d-acces.jpg",
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/2Controle-d-acces.jpg"
+        "./images/1Controle-d-acces.jpg",
+        "./images/2Controle-d-acces.jpg"
       ]
     },
     {
       title: "Installation Armoire & Serveur",
       location: "Charleroi",
       images: [
-        "https://raw.githubusercontent.com/YassSek/test-w/main/images/Installe%20armire%2Bserveur-Charleori.JPG"
+        "./images/Installe%20armire%2Bserveur-Charleori.JPG"
       ]
     }
   ];
