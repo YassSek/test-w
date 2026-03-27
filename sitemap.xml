@@ -4,16 +4,16 @@
     
     <!-- Page d'accueil / Index (One-Page) -->
     <url>
-        <loc>https://wisec.be/</loc>
+        <loc>https://wisek.be/</loc>
         <lastmod>2026-02-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-        <xhtml:link rel="alternate" hreflang="fr-BE" href="https://wisec.be/"/>
+        <xhtml:link rel="alternate" hreflang="fr-BE" href="https://wisek.be/"/>
     </url>
     
     <!-- Section Services (Ancre dans index.html) -->
     <url>
-        <loc>https://wisec.be/#services</loc>
+        <loc>https://wisek.be/#services</loc>
         <lastmod>2026-02-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -21,7 +21,7 @@
     
     <!-- Section Réalisations (Ancre dans index.html) -->
     <url>
-        <loc>https://wisec.be/#realisations</loc>
+        <loc>https://wisek.be/#realisations</loc>
         <lastmod>2026-02-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -29,7 +29,7 @@
     
     <!-- Section Zones (Ancre dans index.html) -->
     <url>
-        <loc>https://wisec.be/#zones</loc>
+        <loc>https://wisek.be/#zones</loc>
         <lastmod>2026-02-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -37,7 +37,7 @@
     
     <!-- Section Pourquoi nous (Ancre dans index.html) -->
     <url>
-        <loc>https://wisec.be/#pourquoi</loc>
+        <loc>https://wisek.be/#pourquoi</loc>
         <lastmod>2026-02-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -45,7 +45,7 @@
     
     <!-- Section Contact (Ancre dans index.html) -->
     <url>
-        <loc>https://wisec.be/#contact</loc>
+        <loc>https://wisek.be/#contact</loc>
         <lastmod>2026-02-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
